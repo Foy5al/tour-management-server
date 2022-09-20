@@ -13,7 +13,7 @@ const TourPackageRoute = require("./Routes/TourPackage.route");
 app.use("/tour", TourPackageRoute);
 
 app.get("/", (req, res) => {
-  res.send("surver is connected!!");
+  res.send("Tour Management Server is Connected!!");
 });
 
 module.exports = app;
